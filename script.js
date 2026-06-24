@@ -33,7 +33,7 @@ setTimeout(()=>{
 
 document.getElementById("loader").classList.add("hide");
 
-},2000);
+},3000);
 
 });
 
