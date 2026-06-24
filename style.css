@@ -61,7 +61,19 @@ color:white;
 }
 
 .hero-content{
-animation:fadeUp 2s;
+animation:heroMasuk 2s ease;
+}
+
+@keyframes heroMasuk{
+from{
+opacity:0;
+transform:translateY(100px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
 }
 
 .hero h2{
